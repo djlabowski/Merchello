@@ -19,8 +19,12 @@
   "engines": {
     "node": ">= 0.8.4"
   },
-  "dependencies": {},
+  "dependencies": {
+    "axios": "1.13.6",
+    "socket.io-client": "4.8.3"
+  },
   "devDependencies": {
+    "axios": "1.13.6",
     "grunt": "~0.4.1",
     "phantomjs": "~1.9.1-0",
     "grunt-recess": "~0.3",
@@ -44,6 +48,7 @@
     "karma-coffee-preprocessor": "latest",
     "karma": "~0.10",
     "karma-phantomjs-launcher": "latest",
-    "karma-ng-scenario": "latest"
+    "karma-ng-scenario": "latest",
+    "socket.io-client": "4.8.3"
   }
 }
